@@ -45,8 +45,8 @@ Minimal configuration:
 
 ```js
 var meaning = MeaningCloud({
-  key: process.env.API_KEY // API Key. Required.
-  secure: true             // HTTPS or HTTPS. Optional, true by default.
+  key: process.env.API_KEY, // API Key. Required.
+  secure: true,             // HTTPS or HTTPS. Optional, true by default.
   uri: 'custom-uri'        // URI to create the API endpoints. Optional.
 });
 ```
